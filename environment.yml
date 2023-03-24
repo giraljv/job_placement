@@ -13,12 +13,13 @@ dependencies:
   - fs
   - seaborn
   - matplotlib
-  - sklearn
   - missingno
   - upsetplot
   - pip
+  - scikit-learn
   - pyprojroot
   - python=3.9
+  - joblib
   - pip:
     - pyhere
     
