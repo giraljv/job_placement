@@ -1,0 +1,24 @@
+# conda env create --file environment.yml
+name: job_placement
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyter
+  - jupyterlab
+  - pathlib
+  - pandas
+  - numpy
+  - fs
+  - seaborn
+  - matplotlib
+  - sklearn
+  - missingno
+  - upsetplot
+  - pip
+  - pyprojroot
+  - python=3.9
+  - pip:
+    - pyhere
+    
